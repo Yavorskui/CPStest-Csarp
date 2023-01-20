@@ -131,9 +131,19 @@
             0,
             65536});
             this.numericUpDown.Location = new System.Drawing.Point(439, 251);
+            this.numericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.numericUpDown.Name = "numericUpDown";
             this.numericUpDown.Size = new System.Drawing.Size(133, 23);
             this.numericUpDown.TabIndex = 8;
+            this.numericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             // 
             // Form1
             // 
